@@ -1,0 +1,12 @@
+LOGIN
+
+email: lizzygreen@gmail.com
+
+password: 12345678
+
+
+PROFILE
+
+name: 7 characters or more
+
+address: 10 characters or more

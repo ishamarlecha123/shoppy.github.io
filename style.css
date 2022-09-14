@@ -1,0 +1,202 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: #fcf7fb
+}
+h1{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+h3{
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+h4{
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+h5{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #1d1d1d;
+}
+
+h6{
+  color: #d8d8d8
+}
+
+button{
+  outline: none;
+  border: none;
+}
+
+hr{
+  width: 50px;
+  height: 2px;
+  background-color: #545454
+}
+
+small {
+  color: red;
+  margin: 5px;
+  text-align: left;
+}
+
+/* Login */
+.box {
+  width: 500px;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  text-align: center;
+}
+
+.box h1 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.box input {
+  border: 2px solid;
+  background: none;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  padding: 12px 10px;
+  width: 420px;
+  outline: none;
+  border-radius: 24px;
+}
+
+.success {
+  border: 3px solid green !important;
+}
+
+.error {
+  border: 3px solid red !important;
+}
+
+/* Navigation */
+.navbar{
+  font-size: 15px;
+  top:0;
+  left: 0;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar i{
+  padding: 0 20px;
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar i.action{
+  color: #545454;
+}
+
+.profile{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 0;
+}
+
+
+/* Products */
+
+.product{
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.product img{
+  width: 250px;
+  height: 300px;
+  transition: 0.3s all;
+}
+
+.product:hover img{
+  opacity: 0.7;
+}
+
+.product .buy-btn{
+  font-size: 0.8rem;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  background-color: #1d1d1d;
+  color: aliceblue;
+  padding: 13px 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+  transform: translateY(20px);
+  opacity:0;
+  transition: 0.3s all;
+}
+
+.product:hover .buy-btn{
+  background-color: #545454;
+  transform: translateY(0);
+  opacity:1;
+}
+
+.star{
+  padding: 10px 0;
+}
+
+.star i{
+  font-size: 0.8rem;
+  color: goldenrod;
+}
+
+/* Profile */
+.submit-btn{
+  font-size: 0.8rem;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  background-color: #1d1d1d;
+  color: aliceblue;
+  padding: 13px 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+
+}
+
+.submit-btn:hover{
+  background-color: #545454;
+}
+
+/* Footer */
+.bottom-container{
+  background-color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 0px;
+}
+
+.copy-right{
+  color: #1d1d1d;
+  font-size: 0.75rem;
+  padding-top: 10px;
+}

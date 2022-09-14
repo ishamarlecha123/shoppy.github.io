@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form class="box" action="index.html" method="post">
+      <h1>LOGIN</h1>
+      <input type="email" id="email" placeholder="Email" class="form-control">
+      <small id="email_error"></small>
+
+      <input type="password" id="password" placeholder="Password" class="form-control">
+      <small id="password_error"></small><br><br>
+
+      <button class="submit-btn" onclick="validate()" type="button" name="button">SUBMIT</button>
+    </form>
+  </body>
+</html>
+<script src="./index.js"></script>
